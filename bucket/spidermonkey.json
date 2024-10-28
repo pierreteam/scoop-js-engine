@@ -7,15 +7,15 @@
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64.zip#/dl.7z",
-            "hash": "sha512:2f674be4a07593c262419c6853300f64ceaf9d1cde8ed01c6798c9330650a16036af445b308d42f08d29526aa9db00a8868be0fbd12a89d25d38143399188046"
+            "hash": "048e399b70917d5d5a6d4b5f7c9a9b88c961ef7e2e725ac1398813a04bc565cf"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win32.zip#/dl.7z",
-            "hash": "sha512:b2f50d39107b49209f7eeb8181a5cb95eec981162c9e2b90889ae9ab5cd3aef2ba487760c81423ca791b0e5757f142fcaf4564523d83366dc0391ef838ad5d59"
+            "hash": "2ed0922437501dbaf9ef85913128d62d56cac0a0e9c2c8eb4eb6d596426623c7"
         },
         "arm64": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64-aarch64.zip#/dl.7z",
-            "hash": "sha512:3804d13e4ca64e370221a3e01f74bd6e2c3a36fc9a1b6117b1faeea23ec1bc72ce6d447e58de4afa92dded2231b03104ddde9c93437b24ba4a71be1ec40467bf"
+            "hash": "b6e6d86cdb988d7d135b67c99c333f3ed0008316941003720f740c9913aa1b8b"
         }
     },
     "checkver": {
@@ -33,10 +33,6 @@
             "arm64": {
                 "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64-aarch64.zip#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
-            "regex": "$sha512\\s+jsshell/$basename"
         }
     },
     "bin": [
