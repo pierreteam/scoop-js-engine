@@ -1,0 +1,31 @@
+{
+    "homepage": "https://github.com/oracle/graaljs",
+    "version": "24.1.1",
+    "description": "The Graal JavaScript Engine",
+    "license": "MIT",
+    "notes": "Please run 'graaljs --help' in the Windows Terminal for more information.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/oracle/graaljs/releases/download/graal-24.1.1/graaljs-24.1.1-windows-amd64.zip",
+            "hash": "cc136e7849f4f17cb181b8a6065262f7473f277bd343e9addfe4d89140e218d6"
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/oracle/graaljs/releases/latest",
+        "regex": "/releases/tag/(?:graal-)([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/oracle/graaljs/releases/download/graal-$version/graaljs-$version-windows-amd64.zip",
+                "extract_dir": "graaljs-$version-windows-amd64"
+            }
+        }
+    },
+    "bin": [
+        [
+            "bin/js.exe",
+            "graaljs"
+        ]
+    ]
+}
