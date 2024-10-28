@@ -1,30 +1,32 @@
 {
-    "homepage": "https://github.com/quickjs-ng/quickjs",
-    "version": "0.6.1",
+    "homepage": "https://bellard.org/quickjs",
+    "version": "2024-01-13",
     "description": "The QuickJS JavaScript Engine",
     "license": "MIT",
-    "notes": "Please run 'quickjs --help' in the Windows Terminal for more information.",
-    "pre_install": "Get-ChildItem \"$dir\\qjs-windows-*.exe\" | Rename-Item -NewName 'quickjs.exe'",
+    "notes": "Please run 'qjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.6.1/qjs-windows-x86_64.exe",
-            "hash": "2904a830a240f1dc015068f5cccae14bf93479c58b9fec3ca2d7fa34b28c7211"
+            "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-x86_64-2024-01-13.zip",
+            "hash": "8a2af46c2a585d95291120111fd88aeadcd730ca1467b2cea444e790a94ac3c9"
         },
         "32bit": {
-            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.6.1/qjs-windows-x86.exe",
-            "hash": "e9f26ffdbdf26f5badedc1f8aa13ce67c4e540165ca03c69ff14813994401179"
+            "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-i686-2024-01-13.zip",
+            "hash": "4591d7d8cb5169ac3c50ffcbd518a9b17a86d1354ab4e3577737b4542467912c"
         }
     },
-    "checkver": "github",
+    "checkver": {
+        "url": "https://bellard.org/quickjs/binary_releases/LATEST.json",
+        "jsonpath": "$.version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/quickjs-ng/quickjs/releases/download/v$version/qjs-windows-x86_64.exe"
+                "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-x86_64-$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/quickjs-ng/quickjs/releases/download/v$version/qjs-windows-x86.exe"
+                "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-i686-$version.zip"
             }
         }
     },
-    "bin": "quickjs.exe"
+    "bin": "qjs.exe"
 }
