@@ -1,9 +1,9 @@
 {
-    "homepage": "https://github.com/facebook/hermes",
+    "homepage": "https://spidermonkey.dev",
     "version": "132.0b8",
-    "description": "The Hermes JavaScript Engine",
+    "description": "The SpiderMonkey JavaScript Engine",
     "license": "MPL-2.0",
-    "notes": "Please run 'hermes --help' in the Windows Terminal for more information.",
+    "notes": "Please run 'smjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64.zip",
@@ -40,10 +40,5 @@
             "regex": "$sha512\\s+jsshell/$basename"
         }
     },
-    "bin": [
-        [
-            "js.exe",
-            "smjs"
-        ]
-    ]
+    "bin": [["js.exe", "smjs"]]
 }
