@@ -6,15 +6,15 @@
     "notes": "Please run 'smjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64.zip#/dl.7z",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64.zip",
             "hash": "048e399b70917d5d5a6d4b5f7c9a9b88c961ef7e2e725ac1398813a04bc565cf"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win32.zip#/dl.7z",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win32.zip",
             "hash": "2ed0922437501dbaf9ef85913128d62d56cac0a0e9c2c8eb4eb6d596426623c7"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64-aarch64.zip#/dl.7z",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64-aarch64.zip",
             "hash": "b6e6d86cdb988d7d135b67c99c333f3ed0008316941003720f740c9913aa1b8b"
         }
     },
@@ -25,20 +25,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64.zip#/dl.7z"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64.zip"
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win32.zip#/dl.7z"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win32.zip"
             },
             "arm64": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64-aarch64.zip#/dl.7z"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64-aarch64.zip"
             }
         }
     },
-    "bin": [
-        [
-            "js.exe",
-            "smjs"
-        ]
-    ]
+    "bin": [["js.exe", "smjs"]]
 }
