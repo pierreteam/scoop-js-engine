@@ -3,7 +3,7 @@
     "version": "0.6.1",
     "description": "The QuickJS JavaScript Engine",
     "license": "MIT",
-    "notes": "Please run 'qjs --help' in the Windows Terminal for more information.",
+    "notes": "Please run 'quickjs --help' in the Windows Terminal for more information.",
     "pre_install": "Get-ChildItem \"$dir\\qjs-windows-*.exe\" | Rename-Item -NewName 'quickjs.exe'",
     "architecture": {
         "64bit": {
