@@ -1,27 +1,26 @@
 {
     "homepage": "https://spidermonkey.dev",
-    "version": "132.0b8",
+    "version": "132.0b9",
     "description": "The SpiderMonkey JavaScript Engine",
     "license": "MPL-2.0",
     "notes": "Please run 'smjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64.zip#/dl.7z",
-            "hash": "sha512:c6f63e89abe410b7dc830af4edf9c1fd025917d05c68693ee124d1c66e69aa0f5902fb929f56ffcf0bd13d9e500ab281e110a66348ede96d823ca5abb4265c7b"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64.zip#/dl.7z",
+            "hash": "sha512:2f674be4a07593c262419c6853300f64ceaf9d1cde8ed01c6798c9330650a16036af445b308d42f08d29526aa9db00a8868be0fbd12a89d25d38143399188046"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win32.zip#/dl.7z",
-            "hash": "sha512:22469128524126f837e7941213a95edb69aaf0853305541592a951cac827f3f05fad69d83963a7d6004fd56a278a937fbd12ee0bb2256244f0376719f6140482"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win32.zip#/dl.7z",
+            "hash": "sha512:b2f50d39107b49209f7eeb8181a5cb95eec981162c9e2b90889ae9ab5cd3aef2ba487760c81423ca791b0e5757f142fcaf4564523d83366dc0391ef838ad5d59"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64-aarch64.zip#/dl.7z",
-            "hash": "sha512:ecfd7f8667dd42f6770fdb920e6a08c432e1692d2d5db1def4965c061f92a523cdf802ad1d5a7829c3133d6a8e4803a60f384d17e3d3730a3569f9297d946ed8"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b9/jsshell/jsshell-win64-aarch64.zip#/dl.7z",
+            "hash": "sha512:3804d13e4ca64e370221a3e01f74bd6e2c3a36fc9a1b6117b1faeea23ec1bc72ce6d447e58de4afa92dded2231b03104ddde9c93437b24ba4a71be1ec40467bf"
         }
     },
     "checkver": {
-        "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/en-US/aurora/_/_/_/_/update.xml",
-        "xpath": "/updates/update/patch/@URL",
-        "regex": "devedition-([\\db.]+)-"
+        "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+        "jsonpath": "$.LATEST_FIREFOX_RELEASED_DEVEL_VERSION"
     },
     "autoupdate": {
         "architecture": {
@@ -40,5 +39,10 @@
             "regex": "$sha512\\s+jsshell/$basename"
         }
     },
-    "bin": [["js.exe", "smjs"]]
+    "bin": [
+        [
+            "js.exe",
+            "smjs"
+        ]
+    ]
 }
