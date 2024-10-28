@@ -40,5 +40,10 @@
             "regex": "$sha512\\s+jsshell/$basename"
         }
     },
-    "bin": [["js.exe", "smjs"]]
+    "bin": [
+        [
+            "js.exe",
+            "smjs"
+        ]
+    ]
 }
