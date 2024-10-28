@@ -6,15 +6,15 @@
     "notes": "Please run 'smjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64.zip",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64.zip#/dl.7z",
             "hash": "sha512:c6f63e89abe410b7dc830af4edf9c1fd025917d05c68693ee124d1c66e69aa0f5902fb929f56ffcf0bd13d9e500ab281e110a66348ede96d823ca5abb4265c7b"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win32.zip",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win32.zip#/dl.7z",
             "hash": "sha512:22469128524126f837e7941213a95edb69aaf0853305541592a951cac827f3f05fad69d83963a7d6004fd56a278a937fbd12ee0bb2256244f0376719f6140482"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64-aarch64.zip",
+            "url": "https://archive.mozilla.org/pub/firefox/releases/132.0b8/jsshell/jsshell-win64-aarch64.zip#/dl.7z",
             "hash": "sha512:ecfd7f8667dd42f6770fdb920e6a08c432e1692d2d5db1def4965c061f92a523cdf802ad1d5a7829c3133d6a8e4803a60f384d17e3d3730a3569f9297d946ed8"
         }
     },
@@ -26,13 +26,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64.zip"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64.zip#/dl.7z"
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win32.zip"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win32.zip#/dl.7z"
             },
             "arm64": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64-aarch64.zip"
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/jsshell/jsshell-win64-aarch64.zip#/dl.7z"
             }
         },
         "hash": {
@@ -40,10 +40,5 @@
             "regex": "$sha512\\s+jsshell/$basename"
         }
     },
-    "bin": [
-        [
-            "js.exe",
-            "smjs"
-        ]
-    ]
+    "bin": [["js.exe", "smjs"]]
 }
