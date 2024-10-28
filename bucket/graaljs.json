@@ -2,7 +2,7 @@
     "homepage": "https://github.com/oracle/graaljs",
     "version": "24.1.1",
     "description": "The Graal JavaScript Engine",
-    "license": "MIT",
+    "license": "UPL-1.0",
     "notes": "Please run 'graaljs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
