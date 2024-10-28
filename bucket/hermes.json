@@ -1,5 +1,5 @@
 {
-    "homepage": "https://hermesengine.dev",
+    "homepage": "https://github.com/facebook/hermes",
     "version": "0.13.0",
     "description": "The Hermes JavaScript Engine",
     "license": "MIT",
