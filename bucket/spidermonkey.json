@@ -1,21 +1,21 @@
 {
     "homepage": "https://spidermonkey.dev",
-    "version": "133.0b8",
+    "version": "133.0b9",
     "description": "The SpiderMonkey JavaScript Engine",
     "license": "MPL-2.0",
     "notes": "Please run 'smjs --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b8/jsshell/jsshell-win64.zip",
-            "hash": "3edb1e9bbdd1dd911897be1e4337294c92815b9eccae40d848cb2daa62b9fb29"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b9/jsshell/jsshell-win64.zip",
+            "hash": "5e763a9438065059b60e1f684255a61d6917dadf3b466a8a8c224b8675c6affb"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b8/jsshell/jsshell-win32.zip",
-            "hash": "95e7b5534f6e11167dab7142df7fb2c2c590eac0519d75629e4ab1ab132af226"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b9/jsshell/jsshell-win32.zip",
+            "hash": "35a76414fc1733c1770e814fb8c22656ab658362ee62e85252b8081734ab5698"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b8/jsshell/jsshell-win64-aarch64.zip",
-            "hash": "44f552a8d50092f68b100f986329ee072c59e8e90e396c3ca46489cd14ee9dd5"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b9/jsshell/jsshell-win64-aarch64.zip",
+            "hash": "1f30dcb327c85b5d1c92cb534acfc4961c67fc8f8fd532e0934e6ff937837327"
         }
     },
     "checkver": {
