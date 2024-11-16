@@ -1,18 +1,18 @@
 {
     "homepage": "https://github.com/quickjs-ng/quickjs",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "description": "The Next Generation QuickJS JavaScript Engine",
     "license": "MIT",
     "notes": "Please run 'qjs-ng --help' in the Windows Terminal for more information.",
     "pre_install": "Get-ChildItem \"$dir\\qjs-windows-*.exe\" | Rename-Item -NewName 'qjs.exe'",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.6.1/qjs-windows-x86_64.exe",
-            "hash": "2904a830a240f1dc015068f5cccae14bf93479c58b9fec3ca2d7fa34b28c7211"
+            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.7.0/qjs-windows-x86_64.exe",
+            "hash": "baa6080a0d559d6062fed485ee3be653e5e166a1afb7298914e8843295b3a014"
         },
         "32bit": {
-            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.6.1/qjs-windows-x86.exe",
-            "hash": "e9f26ffdbdf26f5badedc1f8aa13ce67c4e540165ca03c69ff14813994401179"
+            "url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.7.0/qjs-windows-x86.exe",
+            "hash": "67db11185d9fdb7a0510248eb1b6abbd5a0824a65d1f80d2103c84185872b8fa"
         }
     },
     "checkver": "github",
