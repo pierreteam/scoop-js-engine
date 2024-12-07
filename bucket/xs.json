@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/Moddable-OpenSource/moddable",
-    "version": "5.2.0",
+    "version": "5.3.0",
     "description": "The XS JavaScript Engine",
     "license": "GPL-3.0 and LGPL-3.0",
     "notes": "Please run 'xst --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Moddable-OpenSource/moddable/releases/download/5.2.0/xst-win64.zip",
-            "hash": "0ec77862eefbd2429ba34d6f88ea61367e599543d19453634d483587440e45f9"
+            "url": "https://github.com/Moddable-OpenSource/moddable/releases/download/5.3.0/xst-win64.zip",
+            "hash": "d7a183e538c387c35bec94458e7ac05503312f921e781066263f5b617bb6d110"
         }
     },
     "checkver": "github",
