@@ -1,17 +1,17 @@
 {
     "homepage": "https://v8.dev",
-    "version": "13.3.274",
+    "version": "13.3.275",
     "description": "The V8 JavaScript Engine for debug builds",
     "license": "BSD-3-Clause",
     "notes": "Please run 'v8-dbg --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win64-dbg-13.3.274.zip",
-            "hash": "a88980cfc6bbb4511727d2f2aba1432a4185b9dce8090eed5f17d873bff6f6b0"
+            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win64-dbg-13.3.275.zip",
+            "hash": "be3576cd52de7def99d16cf7e2a3c408ad8aec6fba0e6ab61d9f1bce571d824d"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win32-dbg-13.3.274.zip",
-            "hash": "70b0509381d8e90543fbd0f662c711385c89a2546627a04761aa2d6da0a5dfe2"
+            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win32-dbg-13.3.275.zip",
+            "hash": "408fd6bbf4246d5d0aa62471135b6ac25cd4ae730f78913342237dd9317baefd"
         }
     },
     "checkver": {
