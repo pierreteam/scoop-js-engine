@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "pierre-primary/scoop-dev:master"
+    [String]$upstream = "pierreteam/scoop-js-engine:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
