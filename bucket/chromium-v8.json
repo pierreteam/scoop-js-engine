@@ -1,17 +1,17 @@
 {
     "homepage": "https://v8.dev",
-    "version": "13.7.22",
+    "version": "13.7.35",
     "description": "The V8 JavaScript Engine",
     "license": "BSD-3-Clause",
     "notes": "Please run 'v8 --help' in the Windows Terminal for more information.",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win64-rel-13.7.22.zip",
-            "hash": "8ae5d992e50472452d77fa0e8b228293a31ae3a9f249a576f8ae404ea6b61551"
+            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win64-rel-13.7.35.zip",
+            "hash": "fe5b04bf2be585e452485ee81fff23d0f285294dc763b01af4442c4d80e7ddf2"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win32-rel-13.7.22.zip",
-            "hash": "aee10ab7f73d32542df0328b3f158f82ba3dfb9006070efd4a3b7e4d8fe4a7a6"
+            "url": "https://storage.googleapis.com/chromium-v8/official/canary/v8-win32-rel-13.7.35.zip",
+            "hash": "84f903911cdd6a3b776bac04d0f6b4657839317f54e6f8b3e30e3a38a449cebd"
         }
     },
     "checkver": {
